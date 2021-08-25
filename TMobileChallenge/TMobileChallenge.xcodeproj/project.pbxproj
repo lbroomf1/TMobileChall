@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B9C06DB26D5662F0089BB4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C06DA26D5662F0089BB4B /* AppDelegate.swift */; };
+		2B9C06DD26D5662F0089BB4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C06DC26D5662F0089BB4B /* SceneDelegate.swift */; };
+		2B9C06DF26D5662F0089BB4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C06DE26D5662F0089BB4B /* ViewController.swift */; };
+		2B9C06E426D566300089BB4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B9C06E326D566300089BB4B /* Assets.xcassets */; };
+		2B9C06E726D566300089BB4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9C06E526D566300089BB4B /* LaunchScreen.storyboard */; };
+		2B9C06F226D566300089BB4B /* TMobileChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C06F126D566300089BB4B /* TMobileChallengeTests.swift */; };
+		2B9C06FD26D566300089BB4B /* TMobileChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C06FC26D566300089BB4B /* TMobileChallengeUITests.swift */; };
+		2B9C070B26D57C0A0089BB4B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C070A26D57C0A0089BB4B /* Constants.swift */; };
+		2B9C070F26D5C9190089BB4B /* NetworkManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C070E26D5C9190089BB4B /* NetworkManagerType.swift */; };
+		2B9C071226D5C9510089BB4B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C071126D5C9510089BB4B /* NetworkManager.swift */; };
+		2B9C071426D5C9700089BB4B /* RedditService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C071326D5C9700089BB4B /* RedditService.swift */; };
+		2B9C071626D5C99A0089BB4B /* RedditServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C071526D5C99A0089BB4B /* RedditServiceType.swift */; };
+		2B9C071926D5CA4F0089BB4B /* RedditResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C071826D5CA4F0089BB4B /* RedditResponse.swift */; };
+		2B9C071B26D5CA690089BB4B /* RedditDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C071A26D5CA690089BB4B /* RedditDataResponse.swift */; };
+		2B9C071D26D5CA820089BB4B /* RedditStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C071C26D5CA820089BB4B /* RedditStream.swift */; };
+		2B9C071F26D5CABA0089BB4B /* RedditStreamData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C071E26D5CABA0089BB4B /* RedditStreamData.swift */; };
+		2B9C072226D5CAED0089BB4B /* RedditStreamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C072126D5CAED0089BB4B /* RedditStreamViewModel.swift */; };
+		2B9C072526D5CB310089BB4B /* RedditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C072426D5CB310089BB4B /* RedditViewController.swift */; };
+		2B9C072726D5CB4B0089BB4B /* RedditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C072626D5CB4B0089BB4B /* RedditCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B9C06EE26D566300089BB4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B9C06CF26D5662F0089BB4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B9C06D626D5662F0089BB4B;
+			remoteInfo = TMobileChallenge;
+		};
+		2B9C06F926D566300089BB4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B9C06CF26D5662F0089BB4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B9C06D626D5662F0089BB4B;
+			remoteInfo = TMobileChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B9C06D726D5662F0089BB4B /* TMobileChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMobileChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9C06DA26D5662F0089BB4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B9C06DC26D5662F0089BB4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2B9C06DE26D5662F0089BB4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B9C06E326D566300089BB4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B9C06E626D566300089BB4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B9C06E826D566300089BB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B9C06ED26D566300089BB4B /* TMobileChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMobileChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9C06F126D566300089BB4B /* TMobileChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMobileChallengeTests.swift; sourceTree = "<group>"; };
+		2B9C06F326D566300089BB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B9C06F826D566300089BB4B /* TMobileChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMobileChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9C06FC26D566300089BB4B /* TMobileChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMobileChallengeUITests.swift; sourceTree = "<group>"; };
+		2B9C06FE26D566300089BB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B9C070A26D57C0A0089BB4B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2B9C070E26D5C9190089BB4B /* NetworkManagerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerType.swift; sourceTree = "<group>"; };
+		2B9C071126D5C9510089BB4B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2B9C071326D5C9700089BB4B /* RedditService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditService.swift; sourceTree = "<group>"; };
+		2B9C071526D5C99A0089BB4B /* RedditServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditServiceType.swift; sourceTree = "<group>"; };
+		2B9C071826D5CA4F0089BB4B /* RedditResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditResponse.swift; sourceTree = "<group>"; };
+		2B9C071A26D5CA690089BB4B /* RedditDataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditDataResponse.swift; sourceTree = "<group>"; };
+		2B9C071C26D5CA820089BB4B /* RedditStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditStream.swift; sourceTree = "<group>"; };
+		2B9C071E26D5CABA0089BB4B /* RedditStreamData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditStreamData.swift; sourceTree = "<group>"; };
+		2B9C072126D5CAED0089BB4B /* RedditStreamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditStreamViewModel.swift; sourceTree = "<group>"; };
+		2B9C072426D5CB310089BB4B /* RedditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditViewController.swift; sourceTree = "<group>"; };
+		2B9C072626D5CB4B0089BB4B /* RedditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B9C06D426D5662F0089BB4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9C06EA26D566300089BB4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9C06F526D566300089BB4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B9C06CE26D5662F0089BB4B = {
+			isa = PBXGroup;
+			children = (
+				2B9C072826D5CB630089BB4B /* Views */,
+				2B9C072326D5CB120089BB4B /* ViewModels */,
+				2B9C072026D5CAC90089BB4B /* Models */,
+				2B9C071726D5C9AB0089BB4B /* Service */,
+				2B9C071026D5C93B0089BB4B /* NetworkManager */,
+				2B9C070D26D5C8B70089BB4B /* Utils */,
+				2B9C06D926D5662F0089BB4B /* TMobileChallenge */,
+				2B9C06F026D566300089BB4B /* TMobileChallengeTests */,
+				2B9C06FB26D566300089BB4B /* TMobileChallengeUITests */,
+				2B9C06D826D5662F0089BB4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B9C06D826D5662F0089BB4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B9C06D726D5662F0089BB4B /* TMobileChallenge.app */,
+				2B9C06ED26D566300089BB4B /* TMobileChallengeTests.xctest */,
+				2B9C06F826D566300089BB4B /* TMobileChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B9C06D926D5662F0089BB4B /* TMobileChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				2B9C06DA26D5662F0089BB4B /* AppDelegate.swift */,
+				2B9C06DC26D5662F0089BB4B /* SceneDelegate.swift */,
+				2B9C06DE26D5662F0089BB4B /* ViewController.swift */,
+				2B9C06E326D566300089BB4B /* Assets.xcassets */,
+				2B9C06E526D566300089BB4B /* LaunchScreen.storyboard */,
+				2B9C06E826D566300089BB4B /* Info.plist */,
+			);
+			path = TMobileChallenge;
+			sourceTree = "<group>";
+		};
+		2B9C06F026D566300089BB4B /* TMobileChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B9C06F126D566300089BB4B /* TMobileChallengeTests.swift */,
+				2B9C06F326D566300089BB4B /* Info.plist */,
+			);
+			path = TMobileChallengeTests;
+			sourceTree = "<group>";
+		};
+		2B9C06FB26D566300089BB4B /* TMobileChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B9C06FC26D566300089BB4B /* TMobileChallengeUITests.swift */,
+				2B9C06FE26D566300089BB4B /* Info.plist */,
+			);
+			path = TMobileChallengeUITests;
+			sourceTree = "<group>";
+		};
+		2B9C070D26D5C8B70089BB4B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2B9C070A26D57C0A0089BB4B /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2B9C071026D5C93B0089BB4B /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				2B9C070E26D5C9190089BB4B /* NetworkManagerType.swift */,
+				2B9C071126D5C9510089BB4B /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		2B9C071726D5C9AB0089BB4B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2B9C071326D5C9700089BB4B /* RedditService.swift */,
+				2B9C071526D5C99A0089BB4B /* RedditServiceType.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2B9C072026D5CAC90089BB4B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B9C071E26D5CABA0089BB4B /* RedditStreamData.swift */,
+				2B9C071826D5CA4F0089BB4B /* RedditResponse.swift */,
+				2B9C071A26D5CA690089BB4B /* RedditDataResponse.swift */,
+				2B9C071C26D5CA820089BB4B /* RedditStream.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2B9C072326D5CB120089BB4B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2B9C072126D5CAED0089BB4B /* RedditStreamViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2B9C072826D5CB630089BB4B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B9C072626D5CB4B0089BB4B /* RedditCell.swift */,
+				2B9C072426D5CB310089BB4B /* RedditViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B9C06D626D5662F0089BB4B /* TMobileChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B9C070126D566300089BB4B /* Build configuration list for PBXNativeTarget "TMobileChallenge" */;
+			buildPhases = (
+				2B9C06D326D5662F0089BB4B /* Sources */,
+				2B9C06D426D5662F0089BB4B /* Frameworks */,
+				2B9C06D526D5662F0089BB4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMobileChallenge;
+			productName = TMobileChallenge;
+			productReference = 2B9C06D726D5662F0089BB4B /* TMobileChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B9C06EC26D566300089BB4B /* TMobileChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B9C070426D566300089BB4B /* Build configuration list for PBXNativeTarget "TMobileChallengeTests" */;
+			buildPhases = (
+				2B9C06E926D566300089BB4B /* Sources */,
+				2B9C06EA26D566300089BB4B /* Frameworks */,
+				2B9C06EB26D566300089BB4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B9C06EF26D566300089BB4B /* PBXTargetDependency */,
+			);
+			name = TMobileChallengeTests;
+			productName = TMobileChallengeTests;
+			productReference = 2B9C06ED26D566300089BB4B /* TMobileChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B9C06F726D566300089BB4B /* TMobileChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B9C070726D566300089BB4B /* Build configuration list for PBXNativeTarget "TMobileChallengeUITests" */;
+			buildPhases = (
+				2B9C06F426D566300089BB4B /* Sources */,
+				2B9C06F526D566300089BB4B /* Frameworks */,
+				2B9C06F626D566300089BB4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B9C06FA26D566300089BB4B /* PBXTargetDependency */,
+			);
+			name = TMobileChallengeUITests;
+			productName = TMobileChallengeUITests;
+			productReference = 2B9C06F826D566300089BB4B /* TMobileChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B9C06CF26D5662F0089BB4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2B9C06D626D5662F0089BB4B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					2B9C06EC26D566300089BB4B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 2B9C06D626D5662F0089BB4B;
+					};
+					2B9C06F726D566300089BB4B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 2B9C06D626D5662F0089BB4B;
+					};
+				};
+			};
+			buildConfigurationList = 2B9C06D226D5662F0089BB4B /* Build configuration list for PBXProject "TMobileChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B9C06CE26D5662F0089BB4B;
+			productRefGroup = 2B9C06D826D5662F0089BB4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B9C06D626D5662F0089BB4B /* TMobileChallenge */,
+				2B9C06EC26D566300089BB4B /* TMobileChallengeTests */,
+				2B9C06F726D566300089BB4B /* TMobileChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B9C06D526D5662F0089BB4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9C06E726D566300089BB4B /* LaunchScreen.storyboard in Resources */,
+				2B9C06E426D566300089BB4B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9C06EB26D566300089BB4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9C06F626D566300089BB4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B9C06D326D5662F0089BB4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9C071226D5C9510089BB4B /* NetworkManager.swift in Sources */,
+				2B9C071626D5C99A0089BB4B /* RedditServiceType.swift in Sources */,
+				2B9C072526D5CB310089BB4B /* RedditViewController.swift in Sources */,
+				2B9C072226D5CAED0089BB4B /* RedditStreamViewModel.swift in Sources */,
+				2B9C071D26D5CA820089BB4B /* RedditStream.swift in Sources */,
+				2B9C071F26D5CABA0089BB4B /* RedditStreamData.swift in Sources */,
+				2B9C071B26D5CA690089BB4B /* RedditDataResponse.swift in Sources */,
+				2B9C071926D5CA4F0089BB4B /* RedditResponse.swift in Sources */,
+				2B9C071426D5C9700089BB4B /* RedditService.swift in Sources */,
+				2B9C070F26D5C9190089BB4B /* NetworkManagerType.swift in Sources */,
+				2B9C06DF26D5662F0089BB4B /* ViewController.swift in Sources */,
+				2B9C06DB26D5662F0089BB4B /* AppDelegate.swift in Sources */,
+				2B9C06DD26D5662F0089BB4B /* SceneDelegate.swift in Sources */,
+				2B9C072726D5CB4B0089BB4B /* RedditCell.swift in Sources */,
+				2B9C070B26D57C0A0089BB4B /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9C06E926D566300089BB4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9C06F226D566300089BB4B /* TMobileChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9C06F426D566300089BB4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9C06FD26D566300089BB4B /* TMobileChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B9C06EF26D566300089BB4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B9C06D626D5662F0089BB4B /* TMobileChallenge */;
+			targetProxy = 2B9C06EE26D566300089BB4B /* PBXContainerItemProxy */;
+		};
+		2B9C06FA26D566300089BB4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B9C06D626D5662F0089BB4B /* TMobileChallenge */;
+			targetProxy = 2B9C06F926D566300089BB4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B9C06E526D566300089BB4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B9C06E626D566300089BB4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B9C06FF26D566300089BB4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B9C070026D566300089BB4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B9C070226D566300089BB4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JX4Y6TLZA;
+				INFOPLIST_FILE = TMobileChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lbroomf.TMobileChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B9C070326D566300089BB4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JX4Y6TLZA;
+				INFOPLIST_FILE = TMobileChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lbroomf.TMobileChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B9C070526D566300089BB4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JX4Y6TLZA;
+				INFOPLIST_FILE = TMobileChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lbroomf.TMobileChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMobileChallenge.app/TMobileChallenge";
+			};
+			name = Debug;
+		};
+		2B9C070626D566300089BB4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JX4Y6TLZA;
+				INFOPLIST_FILE = TMobileChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lbroomf.TMobileChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMobileChallenge.app/TMobileChallenge";
+			};
+			name = Release;
+		};
+		2B9C070826D566300089BB4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JX4Y6TLZA;
+				INFOPLIST_FILE = TMobileChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lbroomf.TMobileChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TMobileChallenge;
+			};
+			name = Debug;
+		};
+		2B9C070926D566300089BB4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JX4Y6TLZA;
+				INFOPLIST_FILE = TMobileChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lbroomf.TMobileChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TMobileChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B9C06D226D5662F0089BB4B /* Build configuration list for PBXProject "TMobileChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9C06FF26D566300089BB4B /* Debug */,
+				2B9C070026D566300089BB4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B9C070126D566300089BB4B /* Build configuration list for PBXNativeTarget "TMobileChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9C070226D566300089BB4B /* Debug */,
+				2B9C070326D566300089BB4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B9C070426D566300089BB4B /* Build configuration list for PBXNativeTarget "TMobileChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9C070526D566300089BB4B /* Debug */,
+				2B9C070626D566300089BB4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B9C070726D566300089BB4B /* Build configuration list for PBXNativeTarget "TMobileChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9C070826D566300089BB4B /* Debug */,
+				2B9C070926D566300089BB4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B9C06CF26D5662F0089BB4B /* Project object */;
+}
